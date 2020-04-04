@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pentjak Kendang Silat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://kit.fontawesome.com/c3c9035355.js"></script>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.css" />
+</head>
+<body>
+    <div class="hero-header" id="hero-header"></div>
+    <nav class="navbar" id="navbar">
+            <div class="navbar-center">
+                <a class="navbar-brand">Pentjak Kendang Silat</a>
+                    <ul class="navbar-nav">
+                            <li><a class="navigation navactive" href="index.html#hero-header">Welcome</a></li>
+                            <li><a class="navigation" href="index.html#story">About</a></li>
+                            <li><a class="navigation" href="index.html#sectionid-header">Contact</a></li>
+                            <li><a class="navigation" href="gallery.html">Gallery</a></li>
+                            <li><a class="navigation" href="shop.html">Shop</a></li>
+                            <div id="full-cart">
+                                <div id="cart-btn" class="snipcart-checkout">
+                                    <span class="nav-icons">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </span>
+                                    <div class="cart-items"><span class="snipcart-items-count"></span></div>
+                                </div>
+                                </div>
+                            <!--<button class="snipcart-checkout">Checkout<span class="snipcart-items-count"></span><span class="snipcart-total-price"></span></button>-->
+                        </ul>
+                <span class="nav-icon" onclick="openSideMenu();"><i class="fas fa-bars"></i>
+                </span>
+                
+            
+            
+            </div>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSideMenu();">&times</a>
+                <a href="index.html#hero-header">Welcome</a>
+                <a href="index.html#story">About</a>
+                <a href="#sectionid-header">Contact</a>
+                <a class="navigation" href="gallery.html">Gallery</a>
+                <a href="shop.html">Shop</a>
+                <button class="snipcart-checkout">Click here to checkout</button>
+            </div>
+        </nav>
+        <header class="hero" id="hero">
+                <div class="banner">
+                    <h1 class="banner-title">Shop Pentak Kendang Silat</h1>
+                    <h2 class="banner-sub-title">"Buy Pentjak Kendang Silat Merchandise"</h2>
+                </div>
+        </header>
+        <section class="products" id="products">
+            <div class="section-title">
+                <h2>Our Products</h2>
+            </div>
+            <div class="products-center">
+               <article class="product">
+                    <div class="img-container">
+                        <img src="images/4640.jpg" alt="product" class="product-img">
+                        <button id="bag-btn"  class="snipcart-add-item"
+                        data-item-id="starry-night"
+                        data-item-price="79.99"
+                        data-item-url="shop.html"
+                        data-item-description="High-quality item from Nollies Taco Shop."
+                        data-item-image="images/4640.jpg"
+                        data-item-name="The Rasta T-Shirt">
+                        <i class="fas fa-shopping-cart"></i>Add To Bag</button>
+                    </div>
+                    <h3>Rasta Tee</h3>
+                    <h4>$21.99</h4>
+                </article>
+               <article class="product">
+                    <div class="img-container">
+                        <img src="images/4640.jpg" alt="product" class="product-img">
+                        <button id="bag-btn" data-id="2"><i class="fas fa-shopping-cart"></i>Add To Bag</button>
+                    </div>
+                    <h3>Rasta Tee</h3>
+                    <h4>$21.99</h4>
+                </article>
+               <article class="product">
+                    <div class="img-container">
+                        <img src="images/4640.jpg" alt="product" class="product-img">
+                        <button id="bag-btn" data-id="3"><i class="fas fa-shopping-cart"></i>Add To Bag</button>
+                    </div>
+                    <h3>Rasta Tee</h3>
+                    <h4>$21.99</h4>
+                </article>
+               <article class="product">
+                    <div class="img-container">
+                        <img src="images/4640.jpg" alt="product" class="product-img">
+                        <button id="bag-btn" data-id="1"><i class="fas fa-shopping-cart"></i>Add To Bag</button>
+                    </div>
+                    <h3>Rasta Tee</h3>
+                    <h4>$21.99</h4>
+                </article>
+               <article class="product">
+                    <div class="img-container">
+                        <img src="images/4640.jpg" alt="product" class="product-img">
+                        <button id="bag-btn" data-id="1"><i class="fas fa-shopping-cart"></i>Add To Bag</button>
+                    </div>
+                    <h3>Rasta Tee</h3>
+                    <h4>$21.99</h4>
+                </article>
+               <article class="product">
+                    <div class="img-container">
+                        <img src="images/4640.jpg" alt="product" class="product-img">
+                        <button id="bag-btn" data-id="1"><i class="fas fa-shopping-cart"></i>Add To Bag</button>
+                    </div>
+                    <h3>Rasta Tee</h3>
+                    <h4>$21.99</h4>
+                </article>
+            </div>
+        </section>
+        <footer id="footer">
+            <ul class="social-icons">
+              <li class="color">
+                    <a class="icons" href="http://www.facebook.com/MastryMedia" target="new"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="color">
+                    <a class="icons" href="http://www.twitter.com" target="new"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="color">
+                    <a class="icons" href="http://www.google.com" target="new"><i class="fab fa-google fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="color">
+                    <a class="icons" href="http://www.youtube.com" target="new"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+               <div class="copyright">
+                    <p>Copyright © 2020</p>
+                </div>
+         </footer>
+    
+      <div hidden id="snipcart" data-api-key="M2U2YmMxNDUtYjZkMi00Njk1LTlkYWEtODdjZTcyNzVhZTI1NjM3MTIwMzQ5NzY0NTY0MzU1"></div>  
+     <script src="js/app.js"></script>   
+     <script src="https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.js"></script>
+    </body>
+    </html>

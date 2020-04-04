@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pentjak Kendang Silat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://kit.fontawesome.com/c3c9035355.js"></script>
+</head>
+<body>
+    <div class="hero-header" id="hero-header"></div>
+    <nav class="navbar" id="navbar">
+            <div class="navbar-center">
+                <a class="navbar-brand">Kendang Pentjak Silat</a>
+                    <ul class="navbar-nav">
+                            <li><a class="navigation navactive" href="#hero-header">Welcome</a></li>
+                            <li><a class="navigation" href="#story">About</a></li>
+                            <li><a class="navigation" href="#sectionid-header">Contact</a></li>
+                            <li><a class="navigation" href="gallery.html">Gallery</a></li>
+                            <li><a class="navigation" href="shop.html">Shop</a></li>
+                        </ul>
+                <span class="nav-icon" onclick="openSideMenu();"><i class="fas fa-bars"></i>
+                </span>
+                
+            
+            
+            </div>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSideMenu();">&times</a>
+                <a href="#hero-header">Welcome</a>
+                <a href="#story">About</a>
+                <a href="#sectionid-header">Contact</a>
+                <a class="navigation" href="gallery.html">Gallery</a>
+                <a href="shop.html">Shop</a>
+            </div>
+        </nav>
+        <header class="hero" id="hero">
+                <div class="banner">
+                    <h1 class="banner-title">Kendang Pentjak Silat</h1>
+                    <h2 class="banner-sub-title">"Like a hurricane against the concrete"</h2>
+                </div>
+        </header>
+ <section id="story" class="description_content">
+                <div class="text-content container">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <h1>About us</h1>
+                        <div class="fa fa-cutlery fa-2x"></div>
+                        <p class="desc-text">Kendang Pentjak Silat "Like a hurricane against the concrete".</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-section">
+                           <img src="images/hs2scale.jpg" width="250" height="220">
+                           <img src="images/hs2scale.jpg" width="250" height="220">
+                           <div class="img-section-space"></div>
+                           <img src="images/hs2scale.jpg" width="250" height="220">
+                           <img src="images/hs2scale.jpg" width="250" height="220">
+                       </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+ <section id="drinks" class="description_content">
+    <div class="hero-drinks">
+        <div class="banner-two">
+            <h1 class="banner-title-drinks">Enjoy your ass kicked!</h1>
+        </div>
+    </div>
+</section>
+<section id="drinks-square" class="description_content">
+<div class="text-content container">
+   <div class="row">
+      <div class="col-md-6">
+            <div class="img-section">
+                    <img src="images/indonesia.jpg" width="250" height="220">
+                    <img src="images/indonesia.jpg" width="250" height="220">
+                    <div class="img-section-space"></div>
+                    <img src="images/indonesia.jpg" width="250" height="220">
+                    <img src="images/indonesia.jpg" width="250" height="220">
+               </div>
+           
+       </div>
+       <div class="col-md-6">
+            <h1>Craft Arts</h1>
+            <p class="drink-text">Here at Pentjak Kendang Silat we're all about chewing bubble gum and kicking ass and we are all out of bubble gum. So stop by and experience ass kicking at its finest.</p>
+        </div>
+    </div>
+</div>
+</section>
+<div class="sectionid-header" id="sectionid-header"></div>
+<section class="sectionid-contact" id="sectionid-contact">
+            <article class="contact-info">
+                <h3 class="contact-info">Contact Email:</h3>
+                <h3 class="contact-info"><a href="mailto:gurochirs@gmail.com" class="email-info">gurochris@gmail.com</a></h3>
+              
+            </article>
+            <article class="contact-info">
+                <h3 class="contact-info">Contact Phone:</h3>
+                <h3 class="contact-info"><a href="tel:8439747817" class="email-info" id="email-info">Call us at 843-974-7817</a></h3>
+              
+            </article>
+            <article class="contact-info">
+                <h3 class="contact-info">Contact Address:</h3>
+                <h3 class="contact-info" id="address">Pentjak Kendang Silat<br/>3485 Vestige Ct., Charleston, SC 28428</h3>
+              
+            </article>
+               
+</section>
+         
+<div id='map'></div>  
+
+<footer id="footer">
+        <ul class="social-icons">
+          <li class="color">
+                <a class="icons" href="http://www.facebook.com/MastryMedia" target="new"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.twitter.com" target="new"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.google.com" target="new"><i class="fab fa-google fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.youtube.com" target="new"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+           <div class="copyright">
+                <p>Copyright © 2020</p>
+            </div>
+     </footer>
+
+   
+ <script src="js/app.js"></script>   
+</body>
+</html>
