@@ -254,6 +254,10 @@ html {
     text-align: center;
 }
 
+.fas.fa-dharmachakra{
+  margin: 20px;
+}
+
 .text-content.container {
     margin-top: 150px;
     margin-bottom: 75px;
