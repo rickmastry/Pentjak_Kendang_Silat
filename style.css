@@ -488,10 +488,7 @@ footer{
     grid-row-gap: 20px;
 }
  
-.menu-img{
-  width:600px;
-   height:400px;
- }
+
 
  .text-content.container {
   margin-top: 75px;
@@ -543,10 +540,7 @@ footer{
   margin: 30px 30px;
 }
 
-.menu-img{
- width:350px;
-  height:250px;
-}
+
   .contact-info{
     font-size: 1.5rem;
   }
@@ -560,6 +554,10 @@ footer{
   .container {
     margin:auto;
    
+}
+
+.col-md-6{
+  width: 100%;
 }
 
 #map{
@@ -642,10 +640,6 @@ footer{
     
 }
 
-.menu-img{
-  width:500px;
-}
-
 p.desc-text {
     font-size: 15px;
 }
@@ -675,10 +669,6 @@ p.drink-text {
 
 .craft-beer{
   margin-top:50px;
-}
-
-.menu-img{
-  width:350px;
 }
 
 .products-center {
