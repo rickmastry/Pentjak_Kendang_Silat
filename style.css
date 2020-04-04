@@ -479,13 +479,74 @@ footer{
   color: var(--mainWhite);
 }
 
-@media screen and (max-width: 768px){
-  .menu-img-section{
-    grid-template-columns: 1fr;
-  text-align: center;
-  align-items: center;
-  }
+@media only screen and (max-width: 848px) and (orientation:landscape){
  
+  .about-img-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+ 
+.menu-img{
+  width:600px;
+   height:400px;
+ }
+
+ .text-content.container {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.gallery-img-section{
+ grid-template-columns: repeat(2, 1fr);
+ grid-column-gap: 20px;
+ grid-row-gap: 20px;
+}
+
+.mapboxgl-canvas{
+    width: 100%;
+    height: 350px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+ #map{
+    width: 100% !important;
+     height: 350px !important;
+  }
+
+  .mapboxgl-canvas{
+    width: 100% !important;
+    height: 350px !important;
+}
+
+ 
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 28px !important;
+}
+  .gallery img{
+    margin:10px;
+    transition: 1s;
+    width: 250px;
+    height: 170px;
+    border: none !important;
+}
+
+.gallery {
+  text-align: center;
+  margin: 30px 30px;
+}
+
+.menu-img{
+ width:350px;
+  height:250px;
+}
   .contact-info{
     font-size: 1.5rem;
   }
@@ -501,12 +562,13 @@ footer{
    
 }
 
-    #map{
+#map{
       width: 350px;
        height: 250px;
        margin:auto;
     }
-    .banner {
+
+.banner {
       margin-bottom: 120px;
       width:500px;
       height: 255px;
@@ -557,29 +619,35 @@ footer{
       font-size: 1.5rem;
       cursor:pointer;
     }
+
   .fas.fa-bars {
      color: white !important;
       display:block !important;
       cursor: pointer !important;
      }
+
      .navigation{
       display: none !important;
      
   }
 
-  .col-md-6 {
-    width: 100%;
-  }
-
+  .about-img-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
   img {
     margin-bottom:10px;
     
 }
 
-img.menu{ 
-  width: 250px !important;
-  height: 250px !important;
-  border-radius: 2px;
+.menu-img{
+  width:500px;
+}
+
+p.desc-text {
+    font-size: 15px;
 }
 
 .sectionid-contact{
@@ -594,5 +662,68 @@ img.menu{
   margin-top: 100px;
 }
 
+.text-content.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p.drink-text {
+  font-size: 15px;
+  text-align: center;
+  
+}
+
+.craft-beer{
+  margin-top:50px;
+}
+
+.menu-img{
+  width:350px;
+}
+
+.products-center {
+  display: grid;
+  grid-template-columns: 1fr;
  
+}
+
+.gallery-img-section {
+  grid-template-columns: 1fr;
+}
+
+#snipcart{
+  padding: 10px 10px 10px 30px;
+  background-color: var(--mainBlack);
+  color: var(--mainWhite);
+  border: var(--mainBlack);
+  font-size:22px;
+}
+ 
+  }
+  @media screen and (max-width: 368px){
+    li.color {
+      font-size: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 24px !important;
+   
+}
+
+.banner-title {
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size:2rem;
+}
+
+.banner-title-drinks {
+  font-size: 3rem;
+}
+
+.menu-img {
+  width: 285px;
+}
+
   }
