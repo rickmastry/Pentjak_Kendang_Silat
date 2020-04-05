@@ -685,9 +685,10 @@ p.drink-text {
   grid-template-columns: 1fr;
 }
 
-#snipcart{
+
+#btn-chk{
+  background-color: #111;
   padding: 10px 10px 10px 30px;
-  background-color: var(--mainBlack);
   color: var(--mainWhite);
   border: var(--mainBlack);
   font-size:22px;
