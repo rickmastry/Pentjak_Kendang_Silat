@@ -527,7 +527,7 @@ footer{
   .navbar-brand {
     padding-top: 10px;
     padding-bottom:10px;
-    padding-left:3px;
+    padding-left:1px;
     padding-right:5px;
     font-size: 26px !important;
 }
@@ -611,7 +611,7 @@ footer{
     }
   
     .navbar-center{
-      padding: 0 .5rem;
+      padding: 0 .25rem;
     }
    
    
