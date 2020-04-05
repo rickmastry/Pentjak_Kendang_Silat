@@ -180,7 +180,7 @@ html {
   }
 
 .banner-title{
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     color: var(--mainWhite);
     font-family: 'Gotu', sans-serif;
     font-size: 110px;
@@ -571,7 +571,7 @@ footer{
     }
 
 .banner {
-      margin-bottom: 120px;
+      margin-bottom: 180px;
       width:500px;
       height: 255px;
       text-align: center;
@@ -580,7 +580,7 @@ footer{
     }
 
     .banner-title {
-        font-size: 87px;
+        font-size: 85px;
     }
 
     .banner-sub-title {
